@@ -1,0 +1,19 @@
+[alias]
+    ci = commit
+    br = branch -vv
+    st = status
+    co = checkout
+    amend = commit --amend
+    unst = reset HEAD --
+    a = add
+    d = diff
+    dc = diff --cached
+    re = rebase
+[core]
+    editor = vim
+	excludesfile = /home/caio/.gitignore_global
+[push]
+    default = matching
+[user]
+	email = c.zovaro@gmail.com
+	name = czovaro
